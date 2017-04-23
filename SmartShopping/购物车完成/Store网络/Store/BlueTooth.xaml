@@ -1,0 +1,34 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Store.BlueTooth"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="44.433"/>
+            <RowDefinition Height="0"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,0.433">
+            <TextBlock Text=" " Style="{StaticResource PhoneTextNormalStyle}" Margin="10,0,12,0"/>
+        </StackPanel>
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="2" Margin="0,63.567,0,-54" RenderTransformOrigin="0.489,0.688" Height="714" VerticalAlignment="Top">
+            <TextBlock x:Name="txtBTStatus" HorizontalAlignment="Left" Height="80" Margin="12,10,0,0" TextWrapping="Wrap" TextTrimming="WordEllipsis" Text="请点击您要链接的蓝牙" VerticalAlignment="Top" Width="458" TextAlignment="Center" FontSize="45"/>
+            <ListBox x:Name="lstBTPaired" ItemsSource="{Binding}" Visibility="Visible" Margin="7,97,13,223"  Tap="lstBTPaired_Tap_1" />
+            
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

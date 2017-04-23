@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>USER-CS12BQ02K0</Machine>
+    <WindowsUser>Administrator</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9afea595-f48c-480b-b327-721553a21b7f</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Administrator</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\wp8\购物车完成\Store网络\Store\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\Store.dll">
+      <PackagePath>Store.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\Microsoft.Expression.Interactions.dll">
+      <PackagePath>Microsoft.Expression.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\Silverlight_ZXing_Core.dll">
+      <PackagePath>Silverlight_ZXing_Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\System.Windows.Interactivity.dll">
+      <PackagePath>System.Windows.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>de\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>en\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>es\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>fr\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>it\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>ja\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>ko\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>ru\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\de\System.Windows.Interactivity.resources.dll">
+      <PackagePath>de\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\en\System.Windows.Interactivity.resources.dll">
+      <PackagePath>en\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\es\System.Windows.Interactivity.resources.dll">
+      <PackagePath>es\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\fr\System.Windows.Interactivity.resources.dll">
+      <PackagePath>fr\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\it\System.Windows.Interactivity.resources.dll">
+      <PackagePath>it\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\ja\System.Windows.Interactivity.resources.dll">
+      <PackagePath>ja\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\ko\System.Windows.Interactivity.resources.dll">
+      <PackagePath>ko\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\ru\System.Windows.Interactivity.resources.dll">
+      <PackagePath>ru\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\1.png">
+      <PackagePath>Assets\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\2.png">
+      <PackagePath>Assets\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\img\light.png">
+      <PackagePath>Assets\img\light.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\Path.png">
+      <PackagePath>Assets\Path.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\sunny.png">
+      <PackagePath>Assets\sunny.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Assets\Path2.jpg">
+      <PackagePath>Assets\Path2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\wp8\购物车完成\Store网络\Store\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

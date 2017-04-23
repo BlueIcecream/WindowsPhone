@@ -1,0 +1,56 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Store.NowArea"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock  Text="商品导航" Grid.Row="0" FontSize="100" Margin="40,0,0,0"/>
+        <TextBlock Grid.Row="1"                              
+                Text="请输入商品名称::"
+                Margin="60,20" 
+                FontSize="50"
+                VerticalAlignment="Stretch" 
+            />
+        <TextBox Grid.Row="2"               
+                x:Name="myTextBox"             
+                Margin="40,10" 
+                FontSize="25"
+                VerticalAlignment="Stretch" 
+            />
+        <TextBlock Grid.Row="3"
+            x:Name="info" 
+            TextWrapping="Wrap"
+            />
+        <!--<Button Content="确定" Grid.Row="4" 
+                Click="Path_Click" 
+                HorizontalAlignment="Stretch" 
+                VerticalAlignment="Stretch" 
+                Margin="60,10" 
+                FontSize="30" />-->
+        <Button Content="显示路径" Grid.Row="5" 
+                Click="Path_Click1" 
+                HorizontalAlignment="Stretch" 
+                VerticalAlignment="Stretch" 
+                Margin="60,10" 
+                FontSize="30" />
+    </Grid>
+
+</phone:PhoneApplicationPage>
